@@ -23,8 +23,9 @@ import java.util.HashMap;
  * @author First Last : netid@iastate.edu
  * @author ...
  * @author ...
- * @author ...
+ * @author Dylan Hanrahan : dylanlh@iastate.edu
  */
+//ayyyyy
 public class DecryptorSkeleton {
     public static void main(String[] args) {
         int[] toDecrypt = {
