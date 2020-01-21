@@ -22,7 +22,7 @@ import java.util.HashMap;
  * Place your @author tags here.
  * @author First Last : netid@iastate.edu
  * @author ...
- * @author ...
+ * @author Nate Schenck : nschenck@iastate.edu
  * @author ...
  */
 public class DecryptorSkeleton {
@@ -151,6 +151,11 @@ public class DecryptorSkeleton {
         cypher.put(26, 'z');
 
         StringBuilder solution = new StringBuilder();
+        
+        for (int i : toDecrypt) {
+        	if (i > 26 || i < 0) continue;
+        	solution.append(cypher.get(i));
+        }
 
         solution.append('!');
         return solution.toString();
