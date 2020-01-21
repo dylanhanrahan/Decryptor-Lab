@@ -22,9 +22,15 @@ import java.util.HashMap;
  * Place your @author tags here.
  * @author First Last : netid@iastate.edu
  * @author ...
+<<<<<<< HEAD
  * @author Nate Schenck : nschenck@iastate.edu
  * @author ...
+=======
+ * @author ...
+ * @author Dylan Hanrahan : dylanlh@iastate.edu
+>>>>>>> 61de0b66d7ad02f18f511368e6dca8d21a9d6ef6
  */
+//ayyyyy
 public class DecryptorSkeleton {
     public static void main(String[] args) {
         int[] toDecrypt = {
