@@ -59,7 +59,9 @@ public class DecryptorSkeleton {
      * @param toDecrypt - The array to be decoded.
      */
     public static void convertBinaryArrayToDecimalArray(int[] toDecrypt) {
-        // TODO
+        for (int i = 0; i < toDecrypt.length; i++) {
+        	toDecrypt[i] = Integer.parseInt("" + toDecrypt[i], 2);
+        }
     }
 
 
@@ -78,7 +80,17 @@ public class DecryptorSkeleton {
      * @param toDecrypt - The array to be decoded.
      */
     public static void shiftArrayValues(int[] toDecrypt) {
-        // TODO
+        for (int i = 0; i < toDecrypt.length; i++) {
+        	if (toDecrypt[i] % 3 == 0) {
+        		toDecrypt[i] -= 1;
+        	}
+        	else if (toDecrypt[i] % 3 == 1) {
+        		toDecrypt[i] -= 2;
+        	}
+        	else {
+        		toDecrypt[i] -= 3;
+        	}
+        }
     }
 
 
@@ -140,8 +152,6 @@ public class DecryptorSkeleton {
         cypher.put(26, 'z');
 
         StringBuilder solution = new StringBuilder();
-
-        // TODO
 
         solution.append('!');
         return solution.toString();
