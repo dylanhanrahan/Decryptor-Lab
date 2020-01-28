@@ -22,13 +22,10 @@ import java.util.HashMap;
  * Place your @author tags here.
  * @author First Last : netid@iastate.edu
  * @author ...
-<<<<<<< HEAD
  * @author Nate Schenck : nschenck@iastate.edu
  * @author ...
-=======
  * @author ...
  * @author Dylan Hanrahan : dylanlh@iastate.edu
->>>>>>> 61de0b66d7ad02f18f511368e6dca8d21a9d6ef6
  */
 //ayyyyy
 public class DecryptorSkeleton {
@@ -89,7 +86,9 @@ public class DecryptorSkeleton {
         	if (i % 3 == 0) {
         		toDecrypt[i] -= 1;
         	}
+
         	else if (i % 3 == 1) {
+
         		toDecrypt[i] -= 2;
         	}
         	else {
@@ -111,6 +110,7 @@ public class DecryptorSkeleton {
      * @param toDecrypt - The array to be decoded.
      */
     public static void divideArrayValues(int[] toDecrypt) {
+
         // TODO
     	for(int j = 0; j < toDecrypt.length; ++j)
     	{
@@ -163,7 +163,6 @@ public class DecryptorSkeleton {
         StringBuilder solution = new StringBuilder();
         
         for (int i : toDecrypt) {
-        	if (i > 26 || i < 0) continue;
         	solution.append(cypher.get(i));
         }
 
