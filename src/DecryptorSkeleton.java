@@ -23,11 +23,10 @@ import java.util.HashMap;
  * @author First Last : netid@iastate.edu
  * @author ...
  * @author Nate Schenck : nschenck@iastate.edu
- * @author ...
  * @author Felipe Bautista felipeb@iastate.edu
+ * @author Eddie Dao
  * @author Dylan Hanrahan : dylanlh@iastate.edu
  */
-//ayyyyy
 public class DecryptorSkeleton {
     public static void main(String[] args) {
         int[] toDecrypt = {
