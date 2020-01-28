@@ -23,7 +23,7 @@ import java.util.HashMap;
  * @author First Last : netid@iastate.edu
  * @author ...
  * @author Nate Schenck : nschenck@iastate.edu
- * @author Eddie Dao
+ * @author Eddie Dao : eddao@iastate.edu
  * @author ...
  * @author Dylan Hanrahan : dylanlh@iastate.edu
  */
