@@ -86,10 +86,10 @@ public class DecryptorSkeleton {
      */
     public static void shiftArrayValues(int[] toDecrypt) {
         for (int i = 0; i < toDecrypt.length; i++) {
-        	if (toDecrypt[i] % 3 == 0) {
+        	if (i % 3 == 0) {
         		toDecrypt[i] -= 1;
         	}
-        	else if (toDecrypt[i] % 3 == 1) {
+        	else if (i % 3 == 1) {
         		toDecrypt[i] -= 2;
         	}
         	else {
@@ -112,6 +112,10 @@ public class DecryptorSkeleton {
      */
     public static void divideArrayValues(int[] toDecrypt) {
         // TODO
+    	for(int j = 0; j < toDecrypt.length; ++j)
+    	{
+    		toDecrypt[j] /= 5;
+    	}
     }
 
 
