@@ -21,10 +21,9 @@ import java.util.HashMap;
  *
  * Place your @author tags here.
  * @author First Last : netid@iastate.edu
- * @author ...
+ * @author Felipe Bautista : felipeb@iastate.edu
  * @author Nate Schenck : nschenck@iastate.edu
- * @author Felipe Bautista felipeb@iastate.edu
- * @author Eddie Dao
+ * @author Eddie Dao : eddao@iastate.edu
  * @author Dylan Hanrahan : dylanlh@iastate.edu
  */
 public class DecryptorSkeleton {
